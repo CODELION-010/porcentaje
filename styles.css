@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://m.media-amazon.com/images/I/6198bRDsLlL._AC_SY355_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(227, 239, 7);
+    text-align: center;
+    font-display: 20px;
+}
+
+#input {
+    background-color: rgb(12, 12, 12);
+    color: aqua;
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 1px solid rgb(243, 230, 230);
+    outline: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#input2 {
+    background-color: rgb(12, 12, 12);
+    color: aqua;
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 1px solid rgb(243, 230, 230);
+    outline: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.año1 {
+    color: rgb(13, 224, 10);
+    text-align: center;
+}
+
+.año2 {
+    color: rgb(13, 224, 10);
+    text-align: center;
+}
+
+.placeholder {
+    color: aqua;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#input2:focus::placeholder {
+    transform: translateY(-100%) scale(0.8);
+    transition: transform 0.2s ease-in-out;
+}
+
+#input:focus::placeholder {
+    transform: translateY(-100%) scale(0.8);
+    transition: transform 0.2s ease-in-out;
+}
+
+.boton:hover {
+    background-color: rgb(199, 190, 188);
+    color: black;
+}
+
+.boton {
+    background-color: rgb(255, 11, 11);
+    color: aqua;
+    border-style: none;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.recuadro {
+    background-color: rgb(12, 12, 12);
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    float: unset;
+    margin: auto;
+    margin-top: 20px;
+    border-style: solid;
+    color: aliceblue;
+}
+

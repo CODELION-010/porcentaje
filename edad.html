@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que Edad Tienes</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="div1">
+        <h2 id="titulo"> RECIBE UN MENSAJE ACORDE A TU EDAD </h2>
+        <h4 id="h4">SORPRENDETE!!!</h4>
+    </div>
+    <div class="recuadro">
+        <form action="edad.php" method="POST">
+            <!--<label for="año1" class="año1"> Año Actual </label> <br>-->
+            <input id="input" type="number" name="año1" placeholder="Año Actual" class="placeholder" max="2050"> </br>
+
+            <!--<label for="año2" class="año2">Año Nacimiento</label><br>-->
+            <input id="input2" type="number" name="año2" placeholder="Año Nacimiento" class="placeholder"
+                max="2023"></br>
+            <input class="boton" id="boton" type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>
