@@ -19,7 +19,7 @@ $total = $año1 - $año2;
 // imprime varios mensajes
 echo "tu edad es: " . $total . " años" . "</br>" ;
 
-if ($total >= 50 && $total <= 100) { 
+if ($total >= 40 && $total <= 100) { 
     echo "La edad es Sabiduria, Medita si has <br>
     Vivido Bien tu Vida";  
 }
